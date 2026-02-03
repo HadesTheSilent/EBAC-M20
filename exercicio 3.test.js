@@ -11,7 +11,7 @@ function somarMultiplos() {
 
 describe('somarMultiplos', () => {
     test('deve retornar a soma correta de todos os múltiplos de 5 ou 7 abaixo de 1000', () => {
-        expect(somarMultiplos()).toBe(142857);
+        expect(somarMultiplos()).toBe(156361);
     });
 
     test('deve retornar um número positivo', () => {
