@@ -8,6 +8,4 @@ function calcularMDC(a, b) {
     return a;
 }
 
-const num1 = 24;
-const num2 = 18;
-console.log(`O MDC entre ${num1} e ${num2} é: ${calcularMDC(num1, num2)}`);
+module.exports = calcularMDC;

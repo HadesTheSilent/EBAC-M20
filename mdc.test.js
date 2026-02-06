@@ -1,12 +1,4 @@
-// Testes para a função calcularMDC
-function calcularMDC(a, b) {
-    while (b !== 0) {
-        let t = b;
-        b = a % b;
-        a = t;
-    }
-    return a;
-}
+const calcularMDC = require('./mdc');
 
 describe('calcularMDC', () => {
     test('deve calcular o MDC de 24 e 18', () => {

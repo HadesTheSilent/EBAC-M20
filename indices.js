@@ -10,8 +10,4 @@ function encontrarIndices(arr) {
     return { maxIdx, minIdx };
 }
 
-const arrayTeste = [10, 5, 20, 8, 3];
-const resultado = encontrarIndices(arrayTeste);
-console.log(`Array: [${arrayTeste}]`);
-console.log(`Índice do maior valor: ${resultado.maxIdx}`);
-console.log(`Índice do menor valor: ${resultado.minIdx}`);
+module.exports = encontrarIndices;

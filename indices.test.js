@@ -1,14 +1,4 @@
-// Testes para a função encontrarIndices
-function encontrarIndices(arr) {
-    if (arr.length === 0) return null;
-    let maxIdx = 0;
-    let minIdx = 0;
-    for (let i = 1; i < arr.length; i++) {
-        if (arr[i] > arr[maxIdx]) maxIdx = i;
-        if (arr[i] < arr[minIdx]) minIdx = i;
-    }
-    return { maxIdx, minIdx };
-}
+const encontrarIndices = require('./indices');
 
 describe('encontrarIndices', () => {
     test('deve encontrar os índices do maior e menor valor', () => {

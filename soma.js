@@ -9,4 +9,4 @@ function somarMultiplos() {
     return soma;
 }
 
-console.log(`A soma de todos os múltiplos de 5 ou 7 abaixo de 1000 é: ${somarMultiplos()}`);
+module.exports = somarMultiplos;
